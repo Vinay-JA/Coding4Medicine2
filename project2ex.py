@@ -25,6 +25,6 @@ def read_fasta_file(file_path):
     return dna
 
 # Example usage:
-fasta_file_path =  "/Users/vinayjagtiani/Code/Coding4Medicine/Project 2/fasta.txt"
+fasta_file_path =  "./fasta.txt"
 dna = read_fasta_file(fasta_file_path)
 print(dna)
